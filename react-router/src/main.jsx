@@ -7,7 +7,7 @@ import PostList from "./components/PostList.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/",    // path defined
     element: <App />,
     children: [
       {
